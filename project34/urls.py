@@ -20,8 +20,8 @@ from app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('display_topic/',display_topic,name='display_topic'),
-    path('display_webpage/',display_webpage,name='display_webpage'),
+    path('display_topics/',display_topics,name='display_topics'),
+    path('display_webpages/',display_webpages,name='display_webpages'),
     path('display_accessrecords/',display_accessrecords,name='display_accessrecords'),
 
 
